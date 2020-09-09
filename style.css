@@ -1,22 +1,52 @@
 body {
     color: white;
+    font-family: Georgia;
     font-weight: normal;
-
     background-color: black;
-    font-family:
-        font-size: line-height: text-decoration:
 }
 
-.a1 {
+#defVid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
-    background-image: url(".jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+#sketchfab {
 
+}
+
+#container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#overlayText {
+    color: white;
+    font-family: Georgia;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+}
+
+#centeredText {
+    color: white;
+    font-family: Georgia;
+    position: fixed;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
 }
 
 a {
     color: blueviolet;
+    text-decoration: none;
 }
 
 a:hover {
